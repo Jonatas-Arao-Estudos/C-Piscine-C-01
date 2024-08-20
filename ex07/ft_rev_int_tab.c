@@ -6,7 +6,7 @@
 /*   By: jarao-de <jarao-de@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/20 18:11:24 by jarao-de          #+#    #+#             */
-/*   Updated: 2024/08/20 18:58:39 by jarao-de         ###   ########.fr       */
+/*   Updated: 2024/08/20 19:32:45 by jarao-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,6 @@ void	ft_rev_int_tab(int *tab, int size)
 		temp = tab[index];
 		tab[index] = tab[size - index - 1];
 		tab[size - index - 1] = temp;
-		index++;
+		index = index + 1;
 	}
 }
